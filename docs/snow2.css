@@ -1,0 +1,27 @@
+circle {
+  fill: white;
+  z-index: 1;
+}
+
+line {
+  stroke-width: 10;
+}
+
+special:hover {
+  r: "100"
+}
+
+circle.special {
+  fill: yellow;
+}
+
+.main {
+  background-color: #87ceeb;
+}
+.hat {
+  z-index: 10;
+}
+
+.eyes circle {
+  fill: black;
+}
